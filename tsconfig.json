@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "strictNullChecks": true,
+        "target": "es5",
+        "outDir": "public",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "rootDir": "assets/ts",
+        "jsx": "react"
+    },
+    "exclude": [
+        "node_modules",
+        "webpack.*.js",
+        "public"
+    ]
+}
